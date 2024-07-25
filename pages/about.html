@@ -3,16 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: hwb(0 0% 100%);
+        }
+
+        .topnav a {
+            float: right;
+            color: rgb(234, 227, 227);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        /* .topnav a:hover {
+            background-color: #070709;
+            color: black;   
+        } */
+        /* .topnav a.active{
+            background-color:#afaed2;
+            opacity: 1;
+        } */
+        /* html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+} */
+
+.column {
+  float: fill;
+  width: 100%;
+  margin-bottom: 80px;
+  padding: 0 8px;
+  margin-top: 30px;
+ 
+
+}
+ 
+ /* .card {
+  box-shadow: 0 4px 8px 0 rgb(237, 237, 241);
+  margin: 8px;
+} */
+
+ .about-section {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(63, 59, 59);
+  color: white;
+ }  
+
+
+
+ /* .button:hover {
+  background-color: #555;
+} */
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="./contact.html">CONTACT</a>
+        <a class="./active" href="./about.html">ABOUT</a>
+        <a href="./shop.html">SHOP</a>
+        <a href="../index.html">HOME</a>
+    </div>
+    <div class="about-section">
+      <br>
+      <div> 
+          <h3 style="color:rgb(226, 32, 64); text-align:center; font-size: 19px; "> Our Story</h3>
+          <h2 style="color:#eef8f1; text-align:center; font-size: 40px; ">Introducting Moso </h2>
+          <h1 style="color:rgb(238, 231, 231); text-align:center; font-size: 29px; "> Since 1986, We crafted interior <br> product  for better spaces</h1>
+          <p style="color: rgb(169, 196, 183); text-align: center; margin-right: 17px; font-size:15px;" > Moso Interior is a free Bootstrop 5 HTML CSS template for your website. <br>
+             Tooplate is one of the best websites to download 100% free HTML Templates <br> forweb designers and developers around the world. 
+             Thank you for visiting.</p>
+        </div>
+      <div class="row">
+        <div class="column">
+          <!-- <div class="card">
+            <img src="../asset/img/about1_img.jpg" style="width: 50%; margin-left:40px;">
+          </div>
+        </div> -->
+       
+          <div class="column">
+          <div class="card">
+            <img src="../asset/img/about2_img.jpg"  style="width: 100%; margin-left:100px;">
+          </div>
+        </div>
+         
+        <!-- <div class="column">
+          <div class="card">
+            <img src="../asset/img/about3_img.jpg" style="width: 100%;margin-left: 100px;">
+          </div>
+        </div>   -->
+      </div>
+   
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>]Aboutpage</title>
     <style>
-        img {
+        body{
+        /* img {
           border-radius: 90%;
         }
+        font-family: Arial;
+  color: white;
+} */
+
+font-family: Arial;
+  color: white;
+        }
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  background-color: rgb(87, 60, 60);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
         </style>
 
 </head>
 <body>
-</div>
+    <div class="split right">
+        <div class="centered">
+          <img src="img_avatar2.png" alt="Avatar woman">
+          <h2>Jane Flex</h2>
+          <p>Some text.</p>
+        </div>
+      </div>
+      
+      <div class="split right">
+        <div class="centered">
+          <img src="img_avatar.png" alt="Avatar man">
+          <h2>John Doe</h2>
+          <p>Some text here too.</p>
+        </div>
+      </div> -->
+<!-- </div>
 <br><br>
      <div> 
          <h3 style="color:rgb(220, 23, 55); text-align:left; font-size: 19px; "> Our Story</h3>
@@ -21,9 +248,9 @@
          <p style="color: rgb(73, 75, 74); text-align: left; margin-right: 17px; font-size:15px;" > Moso Interior is a free Bootstrop 5 HTML CSS template for your website. <br>
             Tooplate is one of the best websites to download 100% free HTML Templates <br> forweb designers and developers around the world. 
             Thank you for visiting.</p>
-       </div>
+       </div> -->
 
-       <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
+       <!-- <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
         <img src="../asset/img/family_img.jpg" class="about-image about-image-small img-fluid" alt="" >
     </div>
 
@@ -38,4 +265,126 @@
    
     
 </body>
-</html>
+</html> 
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #111010;
+        }
+
+        .topnav a {
+            float: right;
+            color: rgb(234, 227, 227);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #D1D0EC;
+            color: black;   
+        }
+        .topnav a.active{
+            background-color:#afaed2;
+            opacity: 1;
+        }
+        html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 40px;
+  padding: 0 8px;
+ 
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(240, 240, 244);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(63, 59, 59);
+  color: white;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+        
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="./contact.html">CONTACT</a>
+        <a class="./active" href="./about.html">ABOUT</a>
+        <a href="./reviews.html">REVIEWS</a>
+        <a href="./shop.html">SHOP</a>
+        <a href="../index.html">HOME</a>
+    </div>
+    <div> 
+        <h3 style="color:rgb(220, 23, 55); text-align:left; font-size: 19px; "> Our Story</h3>
+        <h2 style="color:rgb(11, 4, 5); text-align:left; font-size: 40px; ">Introducting Moso </h2>
+        <h1 style="color:rgb(60, 54, 54); text-align:left; font-size: 29px; "> Since 1986, We crafted interior <br> product  for better spaces</h1>
+        <p style="color: rgb(73, 75, 74); text-align: left; margin-right: 17px; font-size:15px;" > Moso Interior is a free Bootstrop 5 HTML CSS template for your website. <br>
+           Tooplate is one of the best websites to download 100% free HTML Templates <br> forweb designers and developers around the world. 
+           Thank you for visiting.</p>
+      </div>
+    <!-- <div class="about-section">
+        <h1>About Us</h1>
+        <h2>NO ONE HAS EVER BECOME POOR BY GIVING</h2>
+        <p>Money is not the only commodity that is fun to give.</p>
+        <p>We can give time,our experties,our love,or simply give a smile.</p>
+        <p>what does that cost?</p>
+        <p>The point is, none of us can ever run out of something worthwhile to give</p>
+      </div> -->
+      <!-- <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="../asset/img/image.jpg" style="width: 100%; margin-left: 100px;">
+          </div>
+        </div>
+       -->
+        <!-- <div class="column">
+          <div class="card">
+            <img src="../asset/img/img3.png"  style="width: 85%; margin-left: 35px;">
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="../asset/img/img5.png" style="width: 85%;margin-left: 35px;">
+          </div>
+        </div>
+      </div> -->
+   
+<!-- </body>
+</html> --> -->
